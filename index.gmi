@@ -1,0 +1,9 @@
+# 
+
+=> gemini://libraryoferis.org/files/How-to-Know-if-You-are-a-Robot.pdf  How to Know if You are a Robot
+
+=> glog.gmi glog
+
+=> https://github.com/runvnc/subleqrun Python subleq runner
+
+=> gemini://zork.club Play Zork

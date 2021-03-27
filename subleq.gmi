@@ -1,0 +1,67 @@
+# 03-26 MIME type: application/subleq
+
+One big reason for the success of Gemini is that it has a deliberately simple specification, which means that programmers can actually implement it.  As opposed to implementing basically an entire operating system as required for a "browser" these days.
+
+I wondered, what if there was a way to do something similar for sharing simple programs?  So I did some googling for things like "simplest possible VM".  I found SUBLEQ: a One Instruction Set Computer (OISC).
+
+SUBLEQ stands for SUBtract and Branch if Less than or EQ to zero.  The core of it sums up very simply:
+
+```shell
+# For the code SUBLEQ a,b,c:
+
+mem[b] = mem[b] - mem[a]
+if mem[b] <= 0 goto c 
+```
+
+So its a series of instructions (all of the same type -- SUBLEQ) where each instruction is composed of three numbers.
+
+That's it for the actual computation.  Literally. The rest of it is related to waiting for a character from STDIN and writing out a character to STDOUT.  To write a character out, the second operand is -1, and that means to print what is in the first operand.  To read a character, the first operand is -1, and the character is read into the second operand.  The third operand indicates a code location for branching.
+
+There are implementations for this for almost all popular programming languages on Rosetta code.  They are all less than a page of code:
+
+=> https://rosettacode.org/wiki/Subleq Subleq on Rosetta code
+
+Mine is around 27 lines.
+
+## Python script
+
+```python
+import sys
+from readchar import readchar
+
+def run(mem):
+    codePos = 0
+    mem = mem + [0] * 65536
+    printing = False
+    while codePos >= 0:
+        a, b, c = mem[codePos:codePos+3]        
+        if a == -1:
+            sys.stdout.buffer.flush()
+            mem[b] = ord(readchar())
+            if mem[b] == 3:
+                sys.exit(0)
+            codePos += 3
+        elif b == -1:
+            sys.stdout.buffer.write(bytes([mem[a]]))
+            printing = True
+            codePos += 3
+        else:
+            mem[b] = mem[b] - mem[a]
+            if mem[b] <= 0:
+                codePos = c
+            else:
+                codePos += 3
+        if printing and mem[b] != -1:
+            sys.stdout.buffer.flush()
+            printing = False
+```
+
+There is another file that reads the numbers in that make up the "machine code", but that's the entire virtual machine.  With a short program like that, one can run basically any type of console program.  Which, I was initially thinking the fact that the limitations of only character input/output and pausing for input were going to be problematic.
+
+But after thinking about it, I think the limitations make sense for this concept.  The idea was to have something really simple to implement that would allow people (theoretically) to share simple programs.  Simple enough to implement that it would be easy for people to create their own clients/hosts (the way there are lots of Gemini clients).  And also, we want to get away from the type of BS that shows up in browsers, such as browser tabs freezing up from out-of-control scripts secretly mining cryptocurrency etc.
+
+The fact that it pauses for input is probably good for this concept, because it makes it less likely for people to start creating laggy programs.  Most programs will pretty quickly need input from the user and then whatever loop there is will get a rest.
+
+=> roller.sq  Dice Roller
+
+

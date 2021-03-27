@@ -1,0 +1,26 @@
+rm: cannot remove '*.log': No such file or directory
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.2
+https://github.com/michael-lazar/jetforce
+
+Server hostname is biomimetic.me
+TLS Certificate File: /etc/letsencrypt/live/biomimetic.me/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/biomimetic.me/privkey.pem
+Listening on 173.255.250.253:1965
+177.236.52.215 [26/Mar/2021:11:12:06 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:12:34 +0000] "gemini://biomimetic.me/" 20 text/gemini 69
+177.236.52.215 [26/Mar/2021:11:12:42 +0000] "gemini://biomimetic.me/micro" 20 application/octet-stream 11870237
+177.236.52.215 [26/Mar/2021:11:19:31 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:20:12 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:20:31 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:20:38 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:20:46 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+177.236.52.215 [26/Mar/2021:11:22:43 +0000] "gemini://biomimetic.me/cgi-bin/roller.cgi" 20 application/subleq 142204
+rm: cannot remove '*.log': No such file or directory

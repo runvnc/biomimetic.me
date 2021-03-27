@@ -1,0 +1,7 @@
+# biomimetic.me gemlog
+
+Random ideas and also hopefully some stuff about AI and robotics at some point.
+
+=> subleq.gmi  2021-03-26 - MIME type: application/subleq
+=> zork.gmi    2020-03-24 - Zork on Gemini
+
