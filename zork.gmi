@@ -1,0 +1,11 @@
+# 03-24 Zork
+
+Last week my Gemini experiment was about thinking of something cool to do with Gemini's INPUT.  What I came up with was a way to use REPL-like programs on a Gemini server.
+
+I got it working for zork.  Registered a domain (.club was on sale for $1.17) and put it on an existing server. There is more explanation on the page.
+
+=> gemini://zork.club Zork on Gemini
+
+When I was mostly finished I found out someone had actually already come up with something very similar.  And his implementation is more general purpose and somewhat more sophisticated in a way.
+
+=> gemini://gemini.thegonz.net/glog/210320-gemreplPreview.gmi gemrepl preview

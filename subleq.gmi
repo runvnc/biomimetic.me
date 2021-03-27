@@ -13,9 +13,23 @@ mem[b] = mem[b] - mem[a]
 if mem[b] <= 0 goto c 
 ```
 
-So its a series of instructions (all of the same type -- SUBLEQ) where each instruction is composed of three numbers.
+So its a series of instructions (all of the same type -- SUBLEQ) where each instruction is composed of three numbers.  
 
 That's it for the actual computation.  Literally. The rest of it is related to waiting for a character from STDIN and writing out a character to STDOUT.  To write a character out, the second operand is -1, and that means to print what is in the first operand.  To read a character, the first operand is -1, and the character is read into the second operand.  The third operand indicates a code location for branching.
+
+A program to print "Hi" looks like this:
+
+```shell
+9 -1 3
+10 -1 6
+0 0 -1
+72 105 0
+```
+
+This is probably not the best explanation.  If you want more explanations, see:
+
+=> https://esolangs.org/wiki/Subleq Subleq on esolangs.org
+=> https://techtinkering.com/articles/subleq-a-one-instruction-set-computer/ SUBLEQ - A One Instruction Set Computer (OISC)
 
 There are implementations for this for almost all popular programming languages on Rosetta code.  They are all less than a page of code:
 
@@ -62,6 +76,232 @@ But after thinking about it, I think the limitations make sense for this concept
 
 The fact that it pauses for input is probably good for this concept, because it makes it less likely for people to start creating laggy programs.  Most programs will pretty quickly need input from the user and then whatever loop there is will get a rest.
 
+## SUBLEQ assemblers and C compiler
+
+There are multiple macro assemblers and even a high-level C(ish) compiler (called hsq)!  At the bottom of the Lawrence Woodman's page linked above (techtinkering.com) is a link to his excellent subleq assembler "sblasm".
+
+=> https://github.com/lawrencewoodman/sblasm  sblasm
+=> http://mazonka.com/subleq/hsq.html Oleq Mazonka's Higher Subleq C compiler
+
+## What can you do with SUBLEQ?
+
+Anything you can imagine, up to and including Nethack (and beyond).  I did not code anything as cool as that, but did play with it some. I used hsq, wrote some code for ANSI escape codes for colors and moving the cursor, and made this Dice Roller thing:
+
+=> roller.png Dice Roller screenshot
+
+Here is a simple way you can try this concept out.  First, paste the code above into /usr/bin/subleqvm, and then add this code to the bottom (which actually reads in the "machine code" file):
+
+```python
+with open(sys.argv[1],'r') as f:
+    text = f.read()
+
+lines = text.split('\n')
+list = []
+for line in lines:
+    list_ = line.split(' ')
+    for item in list_:
+        if item != '':
+            list.append(int(item))
+        
+run(list)
+```
+
+Make it executable and run 'pip install readchar' if necessary.  Now, assuming you have the av98 Gemini client, run it and type:
+
+```shell
+handler application/subleq subleqvm %s
+go biomimetic.me/roller.sq
+```
+
+It should launch the Python script in another process/window and run the dice roller.
+
 => roller.sq  Dice Roller
 
+One note about the hsq compiler.  It can also run subleq programs.  But on my computer, it requires you to press enter before recognizing any character input.  I hope if anyone else actually builds a subleq VM, they don't do it that way, because that means programs like mine that expect people to just press certain keys and then immediately react won't work.
 
+One other thing about hsq is that it assumes your subleq VM will auto-expand memory at will.  Mine doesn't do that.  Instead it just adds an extra 64KB to the end.  I think that's a better idea than letting it expand indefinitely.  And it will still work with hsq-compiled programs.
+
+## Code for Dice Roller in HSQ
+
+Here is the (C-like) code for the dice roller program above which can be compiled with High-level subleq (hsq):
+
+```c
+int printf(char * s);
+int getchar();
+
+int RED = 1;
+int GREEN = 2;
+int WHITE = 15;
+int BLACK = 0;
+int BLUE = 4;
+int YELLOW = 11;
+
+void clearScreen() {
+    printf("\x1B[2J");
+}
+
+void fgColor(int clr) {
+    printf("\x1B[38;5;%dm", clr);
+}
+
+int bgColor(int clr) {
+    printf("\x1B[48;5;%dm", clr);
+}
+
+int setPos(int x, int y) {
+    printf("\x1B[%d;%dH",y,x);
+}
+
+int repeatChar(int ch, int times) {
+    for (int i=0; i<times; i++) {
+        printf("%c",ch);
+    }    
+}
+
+int fillbox(int color, int x, int y, int w, int h) {
+    bgColor(color);
+    int s = y;
+    for (int j=0; j<h; j++) {
+        setPos(x,y+j);
+        repeatChar(32, w);        
+    }
+}
+
+int seed = 1234567;
+
+int rand() {
+    seed = (8121 * seed + 28411) % 134456;
+    return seed;
+}
+
+int d6() {
+    return rand() % 6 + 1; 
+}
+
+void diceline(int y, char* descr) {
+    setPos(3, y);
+    fgColor(WHITE);
+    char* yellow = "\x1B[38;5;11m";
+    char* whites = "\x1B[38;5;15m";
+    printf("╔═══════════════╦════════════════════════════╗");
+    setPos(3, y+1);
+    printf("║ ");
+    printf(descr,yellow,whites);
+    printf("  ║                            ║");
+    setPos(3, y+2);
+    printf("╚═══════════════╩════════════════════════════╝");    
+}
+
+int rolls[101];
+int lines[101];
+int totals[101];
+
+void initrolls() {
+    for (int i=0; i<101; i++) {
+        rolls[i] = 0;
+        lines[i] = 0;
+        totals[i] = 0;
+    }
+    lines[4] = 4;
+    lines[6] = 7;
+    lines[8] = 10;
+    lines[10] = 13;
+    lines[12] = 16;
+    lines[20] = 19;
+    lines[100] = 22;
+}
+
+void ui() {
+    clearScreen();
+    fillbox(BLUE, 1, 2, 51, 25);
+    setPos(20,2);
+    fgColor(YELLOW);
+    printf("Dice Roller");
+    initrolls();
+    diceline(lines[4],"(%s4%s)-sided   ");
+    diceline(lines[6],"(%s6%s)-sided   " );
+    diceline(lines[8], "(%s8%s)-sided   ");
+    diceline(lines[10], "1(%s0%s)-sided  ");
+    diceline(lines[12], "(%s1%s)2-sided  ");
+    diceline(lines[20], "(%s2%s)0-sided  ");
+    diceline(lines[100], "(%sh%s)100-sided");
+    setPos(15,25);
+    fgColor(YELLOW);
+    char* yellows = "\x1B[38;5;11m";
+    char* whites = "\x1B[38;5;15m";
+    printf("(%sc%s)lear rolls    (%sq%s)uit",yellows, whites);
+}
+
+void clearrolls() {
+    initrolls();
+    for (int i=0; i<101; i++) {
+      if (lines[i] > 0) {
+        setPos(22, lines[i]+1);
+        bgColor(BLUE);
+        repeatChar(' ',26);
+      }
+    }
+}
+
+int lastroll = 0;
+
+int roll(int sides) {
+    if (sides<0||sides>56) return 0;
+    if (sides != lastroll) clearrolls();
+    lastroll = sides;
+    if (sides == 0) { sides = 10;}
+    else if (sides == 1) { sides = 12; }
+    else if (sides == 2) { sides = 20; }
+    else if (sides == 56) { sides = 100; }
+    if (lines[sides]==0) return 0;
+    int r = rand() % sides + 1;
+    int max = 7;
+    if (sides == 100) max = 5;
+    if (rolls[sides] == max) {
+        clearrolls();
+    }
+    totals[sides] += r;
+    rolls[sides] += 1;
+    int n = 3;
+    if (sides == 100) { n = 4; }
+    setPos(20 + (rolls[sides] * n)+1, lines[sides]+1);
+    fgColor(BLACK);
+    bgColor(WHITE);
+    printf("%d", r);
+    fgColor(GREEN);
+    bgColor(WHITE);
+    setPos(45, lines[sides]+1);
+    printf("%d", totals[sides]);
+}
+
+
+int getseed() {
+   clearScreen();
+   setPos(1,1);
+   fgColor(WHITE);
+   printf("Enter a random number seed (6 arbitrary characters): ");
+   for (int i=0; i<6; i++) {
+       int d = getchar();
+       printf("%c", d);   
+       seed -= d * i;
+   }
+   printf("\n");     
+}
+
+int main() {
+   getseed();
+   ui();
+   setPos(10,10);
+   fgColor(YELLOW);
+   while (1) {
+     int d = getchar();
+     if (d == 'c') clearrolls();
+     if (d == 'q') break;
+     else roll(d-48);
+   }
+   fgColor(BLACK);
+   bgColor(BLACK);
+   clearScreen();
+   fgColor(WHITE);
+}
+```

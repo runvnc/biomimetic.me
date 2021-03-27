@@ -2,7 +2,7 @@
 
 => gemini://libraryoferis.org/files/How-to-Know-if-You-are-a-Robot.pdf  How to Know if You are a Robot
 
-=> glog.gmi glog
+=> glog.gmi glog (gemlog)
 
 => https://github.com/runvnc/subleqrun Python subleq runner
 
