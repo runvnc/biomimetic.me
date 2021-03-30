@@ -1,0 +1,77 @@
+# 03-28 - Simplistic federated search
+
+Seems like gus.guru has been down.  Had to look around to find the geminispace.info thing.  It works great.
+
+But I could not help thinking about an alternative to central search services.  People probably won't like it, but I am going to write it down anyway, just in case someone thinks its interesting.
+
+## Concept
+
+The idea is that we don't really need to index everything in Geminispace -- just the things that people are searching for.  The most common things will be searched for frequently.  Less common terms don't necessarily need to be available immediately -- people can wait a few seconds or even up to a day for local indexes to be updated.
+
+Also, most users have their own server or an account on an existing server.  So those servers can index things of interest to their users.  And also, search servers only need to crawl or respond to specific queries on their own servers for non-users.
+
+
+## Rough protocol
+
+* Use the gemini protocol but on another port (2965?)
+
+* Require client certificates
+
+* Servers must keep a whitelist of client certs.  Most commonly this will only have users on that specific server.
+
+* Users in whitelist may query as much as they want, or are allowed per server policy
+
+* Non-whitelist users may only query 5 times per day per certificate.  Servers may also optionally only allow five queries per IP per day (although this will cause problems with users behind a NAT sharing IPs).
+
+* Non-whitelist users may request a domain to be added once per day per certificate.
+
+## Query
+
+```shell
+search?"phrase1" "phrase2"
+```
+
+Query must be URL-encoded, so the above example would be:
+
+```shell
+search?%22phrase1%22%20%22phrase2%22
+
+```
+
+This must be served from the root only. "phase1".."phrase5" are up to 5 keywords/keyphrases that are search terms that are of interest.  They are enclosed in quotes, space delimited, and url-encoded.
+
+If the client is not in the whitelist, then the server only replies with information from its own domain.  If the client is in the whitelist, then the server uses its own crawled information based on previously specified domains and search queries.
+
+## Reply format
+
+If the client is within the quota/5 queries, then it should reply:
+
+```shell
+"phrase1" resource.url <approximately 1 line of matching information and context><CR><LF>
+"phrase2" resource.url2 <approximately 1 line of matching information and context><CR><LF>
+```
+
+If no results OR the server has not yet indexed those keywords, an empty CRLF.
+
+Outside of quota reply is (TEMPORARY FAILURE):
+
+```shell
+43 quota
+```
+
+## Add domain
+
+```shell
+add?mygeminidomain.com
+```
+
+"mygeminidomain.com" is the name of a Gemini domain that you would like to be indexed for certain keywords (that have been collectively specified).
+
+## Crawling script
+
+So each day a script queries (see above) the domains which have been added with the add endpoint and specifies the top 5 queries that it's users have been submitted.  If there are more popular queries then they may do up to 5 requests.  The server may optionally create a full index of its own content, or simply index according to previously specified keywords.
+
+Keyphrases/keywords accumulate.  After 90 days without a request, queries may be dropped from the index.
+ 
+=> cgi-bin/view?search.gmi  View replies   
+

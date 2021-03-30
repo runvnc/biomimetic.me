@@ -7,3 +7,5 @@
 => https://github.com/runvnc/subleqrun Python subleq runner
 
 => gemini://zork.club Play Zork
+
+Email:  runvnc at gmail.com

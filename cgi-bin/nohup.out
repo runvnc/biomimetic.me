@@ -108,3 +108,502 @@ rm: cannot remove '*.log': No such file or directory
 91.196.220.182 [27/Mar/2021:05:38:19 +0000] "gemini://biomimetic.me/" 20 text/gemini 244
 91.196.220.182 [27/Mar/2021:05:38:20 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
 91.196.220.182 [27/Mar/2021:05:38:28 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 652
+91.196.220.182 [27/Mar/2021:05:39:40 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 683
+91.196.220.182 [27/Mar/2021:05:39:57 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+91.196.220.182 [27/Mar/2021:05:40:24 +0000] "gemini://biomimetic.me/" 20 text/gemini 244
+91.196.220.182 [27/Mar/2021:05:40:27 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:40:31 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+91.196.220.182 [27/Mar/2021:05:40:35 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9923
+91.196.220.182 [27/Mar/2021:05:44:39 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+91.196.220.182 [27/Mar/2021:05:48:27 +0000] "gemini://biomimetic.me/" 20 text/gemini 244
+91.196.220.182 [27/Mar/2021:05:48:29 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:49:12 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+91.196.220.182 [27/Mar/2021:05:50:15 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:50:19 +0000] "gemini://biomimetic.me/" 20 text/gemini 244
+91.196.220.182 [27/Mar/2021:05:50:21 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:50:25 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+91.196.220.182 [27/Mar/2021:05:50:38 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:52:59 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+91.196.220.182 [27/Mar/2021:05:54:14 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:05:55:31 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9975
+91.196.220.182 [27/Mar/2021:05:55:49 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+91.196.220.182 [27/Mar/2021:05:56:42 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+91.196.220.182 [27/Mar/2021:05:57:54 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+91.196.220.182 [27/Mar/2021:06:02:03 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+91.196.220.182 [27/Mar/2021:06:02:26 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+91.196.220.182 [27/Mar/2021:06:03:23 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+91.196.220.182 [27/Mar/2021:06:04:46 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+91.196.220.182 [27/Mar/2021:06:04:53 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+91.196.220.182 [27/Mar/2021:06:04:54 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+91.196.220.182 [27/Mar/2021:06:05:29 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+91.196.220.182 [27/Mar/2021:07:01:28 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+172.105.81.166 [27/Mar/2021:07:56:49 +0000] "gemini://biomimetic.me:1965/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:08:10:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:08:10:57 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:08:10:58 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+92.40.173.107 [27/Mar/2021:10:06:11 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+92.40.173.107 [27/Mar/2021:10:06:17 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+92.40.173.107 [27/Mar/2021:10:06:36 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+92.40.173.107 [27/Mar/2021:10:06:54 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+92.40.173.107 [27/Mar/2021:10:06:57 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+92.40.173.107 [27/Mar/2021:10:07:14 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+92.40.173.107 [27/Mar/2021:10:07:17 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+212.102.44.130 [27/Mar/2021:11:50:39 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+212.102.44.130 [27/Mar/2021:11:50:49 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+212.102.44.130 [27/Mar/2021:11:50:56 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+212.102.44.130 [27/Mar/2021:11:51:23 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+212.102.44.130 [27/Mar/2021:11:52:17 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+212.102.44.130 [27/Mar/2021:11:57:19 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+212.102.44.130 [27/Mar/2021:12:00:14 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+95.111.237.17 [27/Mar/2021:17:10:19 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+47.184.147.17 [27/Mar/2021:19:20:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:19:26:27 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:26:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:19:26:34 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:26:35 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+177.236.52.215 [27/Mar/2021:19:26:37 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:26:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:19:26:40 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:28:41 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [27/Mar/2021:19:28:54 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [27/Mar/2021:19:28:56 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:28:59 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+177.236.52.215 [27/Mar/2021:19:29:05 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [27/Mar/2021:19:29:06 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [27/Mar/2021:19:29:07 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+24.50.234.228 [27/Mar/2021:19:54:12 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+95.111.237.17 [27/Mar/2021:23:09:09 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [28/Mar/2021:01:46:04 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [28/Mar/2021:01:51:37 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+177.236.52.215 [28/Mar/2021:01:51:41 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+93.119.178.129 [28/Mar/2021:02:22:24 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+93.119.178.129 [28/Mar/2021:02:26:49 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+93.119.178.129 [28/Mar/2021:02:26:58 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [28/Mar/2021:04:09:02 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [28/Mar/2021:04:09:10 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+177.236.52.215 [28/Mar/2021:04:09:34 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+95.111.237.17 [28/Mar/2021:04:10:54 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+95.38.122.194 [28/Mar/2021:05:01:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+202.61.246.155 [28/Mar/2021:06:42:25 +0000] "gemini://biomimetic.me/robots.txt" 51 Not Found 14
+202.61.246.155 [28/Mar/2021:06:42:25 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+202.61.246.155 [28/Mar/2021:06:42:26 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+202.61.246.155 [28/Mar/2021:06:42:27 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+202.61.246.155 [28/Mar/2021:06:42:27 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+202.61.246.155 [28/Mar/2021:06:42:28 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+80.41.2.146 [28/Mar/2021:07:12:43 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+80.41.2.146 [28/Mar/2021:07:12:50 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+80.41.2.146 [28/Mar/2021:07:12:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x4f595e]
+
+goroutine 1 [running]:
+github.com/pelletier/go-toml.(*Tree).GetPath(0x0, 0xc000010670, 0x1, 0x1, 0x0, 0x0)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:117 +0xee
+github.com/pelletier/go-toml.(*Tree).Get(0x0, 0x53c0fe, 0x4, 0x566120, 0xc000058390)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:88 +0xb1
+github.com/makeworld-the-better-one/gemlikes/shared.getDataDir(0x0, 0x28)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:166 +0x4e
+github.com/makeworld-the-better-one/gemlikes/shared.GetLikesDir(0x203000, 0xc000010610)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:170 +0x26
+github.com/makeworld-the-better-one/gemlikes/shared.SafeInit(0x4cfd10, 0x60)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:39 +0x26
+main.main()
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/view/view.go:38 +0x47
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x4f595e]
+
+goroutine 1 [running]:
+github.com/pelletier/go-toml.(*Tree).GetPath(0x0, 0xc000010670, 0x1, 0x1, 0x0, 0x0)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:117 +0xee
+github.com/pelletier/go-toml.(*Tree).Get(0x0, 0x53c0fe, 0x4, 0x566120, 0xc000058390)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:88 +0xb1
+github.com/makeworld-the-better-one/gemlikes/shared.getDataDir(0x0, 0x28)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:166 +0x4e
+github.com/makeworld-the-better-one/gemlikes/shared.GetLikesDir(0x203000, 0xc000010610)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:170 +0x26
+github.com/makeworld-the-better-one/gemlikes/shared.SafeInit(0x4cfd10, 0x60)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:39 +0x26
+main.main()
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/view/view.go:38 +0x47
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x4f595e]
+
+goroutine 1 [running]:
+github.com/pelletier/go-toml.(*Tree).GetPath(0x0, 0xc000010670, 0x1, 0x1, 0x0, 0x0)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:117 +0xee
+github.com/pelletier/go-toml.(*Tree).Get(0x0, 0x53c0fe, 0x4, 0x566120, 0xc000058390)
+	/home/makeworld/go/pkg/mod/github.com/pelletier/go-toml@v1.8.0/toml.go:88 +0xb1
+github.com/makeworld-the-better-one/gemlikes/shared.getDataDir(0x0, 0x28)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:166 +0x4e
+github.com/makeworld-the-better-one/gemlikes/shared.GetLikesDir(0x203000, 0xc000010610)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:170 +0x26
+github.com/makeworld-the-better-one/gemlikes/shared.SafeInit(0x4cfd10, 0x60)
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/shared/shared.go:39 +0x26
+main.main()
+	/home/makeworld/go/src/github.com/makeworld-the-better-one/gemlikes/view/view.go:38 +0x47
+rm: cannot remove '*.log': No such file or directory
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.2
+https://github.com/michael-lazar/jetforce
+
+Server hostname is biomimetic.me
+TLS Certificate File: /etc/letsencrypt/live/biomimetic.me/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/biomimetic.me/privkey.pem
+Unhandled error in Deferred:
+
+Traceback (most recent call last):
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/jetforce/__main__.py", line 129, in main
+    server.run()
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/jetforce/server.py", line 137, in run
+    self.initialize()
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/jetforce/server.py", line 127, in initialize
+    endpoint.listen(self).addCallback(self.on_bind_interface)
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/twisted/internet/endpoints.py", line 1131, in listen
+    return defer.execute(
+--- <exception caught here> ---
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/twisted/internet/defer.py", line 139, in execute
+    result = callable(*args, **kw)
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/twisted/internet/posixbase.py", line 597, in listenSSL
+    port = self.listenTCP(port, tlsFactory, backlog, interface)
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/twisted/internet/posixbase.py", line 569, in listenTCP
+    p.startListening()
+  File "/home/runvnc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1329, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on 173.255.250.253:1965: [Errno 98] Address already in use.
+
+
+80.41.2.146 [28/Mar/2021:07:14:33 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+80.41.2.146 [28/Mar/2021:07:17:36 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+172.105.81.166 [28/Mar/2021:07:57:12 +0000] "gemini://biomimetic.me:1965/glog.gmi" 20 text/gemini 223
+85.156.142.127 [28/Mar/2021:09:48:09 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+85.156.142.127 [28/Mar/2021:09:48:13 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+85.156.142.127 [28/Mar/2021:09:48:17 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+85.156.142.127 [28/Mar/2021:09:48:55 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 667
+95.111.237.17 [28/Mar/2021:10:10:08 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+164.90.219.242 [28/Mar/2021:10:59:02 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+37.120.214.60 [28/Mar/2021:10:59:30 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+37.120.214.60 [28/Mar/2021:10:59:34 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+37.120.214.60 [28/Mar/2021:10:59:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+5.35.31.172 [28/Mar/2021:12:54:39 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+58.177.87.251 [28/Mar/2021:13:38:46 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+83.137.6.166 [28/Mar/2021:14:24:43 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+202.180.93.205 [28/Mar/2021:15:24:10 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+95.111.237.17 [28/Mar/2021:16:10:09 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+172.105.81.166 [28/Mar/2021:16:34:58 +0000] "gemini://biomimetic.me:1965/subleq.gmi" 20 text/gemini 9994
+85.156.142.127 [28/Mar/2021:16:36:05 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+85.156.142.127 [28/Mar/2021:16:36:35 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+85.156.142.127 [28/Mar/2021:16:36:40 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+85.156.142.127 [28/Mar/2021:16:38:44 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+85.156.142.127 [28/Mar/2021:16:38:58 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+202.180.93.205 [28/Mar/2021:16:41:34 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+85.156.142.127 [28/Mar/2021:16:41:58 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+172.105.81.166 [28/Mar/2021:16:45:24 +0000] "gemini://biomimetic.me:1965" 20 text/gemini 273
+85.156.142.127 [28/Mar/2021:18:40:33 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+85.156.142.127 [28/Mar/2021:18:50:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+85.156.142.127 [28/Mar/2021:19:00:35 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+88.109.43.249 [28/Mar/2021:21:23:23 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+95.111.237.17 [28/Mar/2021:22:09:49 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [28/Mar/2021:23:22:03 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+47.153.37.139 [29/Mar/2021:01:43:34 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 9994
+47.153.37.139 [29/Mar/2021:01:45:00 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+47.153.37.139 [29/Mar/2021:01:45:16 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:01:59:23 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:01:59:25 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:01:59:27 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:01:59:34 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 42 Unexpected Error 21
+177.236.52.215 [29/Mar/2021:02:02:43 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10040
+177.236.52.215 [29/Mar/2021:02:02:46 +0000] "gemini://biomimetic.me/cgi-bin/view?../subleq.gmi" 42 Unexpected Error 21
+177.236.52.215 [29/Mar/2021:02:04:10 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10038
+177.236.52.215 [29/Mar/2021:02:04:11 +0000] "gemini://biomimetic.me/cgi-bin/view?/subleq.gmi" 42 Unexpected Error 21
+177.236.52.215 [29/Mar/2021:02:07:00 +0000] "gemini://biomimetic.me/cgi-bin/view?/subleq.gmi" 40 File not valid, nothing can be shown. Sorry! 49
+177.236.52.215 [29/Mar/2021:02:07:06 +0000] "gemini://biomimetic.me/cgi-bin/view?/subleq.gmi" 40 File not valid, nothing can be shown. Sorry! 49
+177.236.52.215 [29/Mar/2021:02:07:08 +0000] "gemini://biomimetic.me/cgi-bin/view?/subleq.gmi" 40 File not valid, nothing can be shown. Sorry! 49
+177.236.52.215 [29/Mar/2021:02:07:14 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 121
+177.236.52.215 [29/Mar/2021:02:07:21 +0000] "gemini://biomimetic.me/cgi-bin/add-comment?subleq.gmi" 10 Enter your username, a space, and your comment: 52
+177.236.52.215 [29/Mar/2021:02:07:25 +0000] "gemini://biomimetic.me/cgi-bin/add-comment?This%20is%20a%20test%20comment" 20 text/gemini 95
+177.236.52.215 [29/Mar/2021:02:07:28 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+177.236.52.215 [29/Mar/2021:02:07:29 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:02:07:31 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:02:07:41 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:02:07:42 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:07:47 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:07:50 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:07:53 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10038
+76.94.161.39 [29/Mar/2021:02:07:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10038
+177.236.52.215 [29/Mar/2021:02:07:57 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10038
+177.236.52.215 [29/Mar/2021:02:07:59 +0000] "gemini://biomimetic.me/cgi-bin/view?/subleq.gmi" 40 File not valid, nothing can be shown. Sorry! 49
+177.236.52.215 [29/Mar/2021:02:08:25 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:02:08:27 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:02:08:28 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+177.236.52.215 [29/Mar/2021:02:09:20 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:02:09:22 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:09:26 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+177.236.52.215 [29/Mar/2021:02:11:00 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:02:11:02 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:11:06 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+177.236.52.215 [29/Mar/2021:02:11:07 +0000] "gemini://biomimetic.me/cgi-bin/view?zork.gmi" 20 text/gemini 115
+177.236.52.215 [29/Mar/2021:02:14:07 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:14:09 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:14:12 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:02:15:15 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+89.187.171.227 [29/Mar/2021:02:24:08 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 223
+177.236.52.215 [29/Mar/2021:02:57:16 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+177.236.52.215 [29/Mar/2021:02:57:18 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3171
+177.236.52.215 [29/Mar/2021:02:57:54 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3170
+177.236.52.215 [29/Mar/2021:02:58:18 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+177.236.52.215 [29/Mar/2021:02:59:26 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3184
+177.236.52.215 [29/Mar/2021:03:01:31 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3205
+177.236.52.215 [29/Mar/2021:03:03:01 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3208
+177.236.52.215 [29/Mar/2021:03:04:40 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3209
+177.236.52.215 [29/Mar/2021:03:06:55 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+194.193.140.162 [29/Mar/2021:03:38:54 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+95.111.237.17 [29/Mar/2021:04:11:02 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+177.236.52.215 [29/Mar/2021:04:21:30 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+177.236.52.215 [29/Mar/2021:04:21:32 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+177.236.52.215 [29/Mar/2021:04:21:38 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:04:21:42 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+177.236.52.215 [29/Mar/2021:04:21:44 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+177.236.52.215 [29/Mar/2021:04:21:46 +0000] "gemini://biomimetic.me/cgi-bin/view?zork.gmi" 20 text/gemini 115
+177.236.52.215 [29/Mar/2021:04:21:50 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:04:21:50 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+177.236.52.215 [29/Mar/2021:04:21:52 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:04:21:58 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+177.236.52.215 [29/Mar/2021:04:22:03 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+172.105.81.166 [29/Mar/2021:07:58:01 +0000] "gemini://biomimetic.me:1965/glog.gmi" 20 text/gemini 274
+178.9.64.201 [29/Mar/2021:08:46:47 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+178.9.64.201 [29/Mar/2021:08:46:53 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+178.9.64.201 [29/Mar/2021:08:46:56 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+178.9.64.201 [29/Mar/2021:08:47:20 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+178.9.64.201 [29/Mar/2021:08:48:34 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+37.120.214.60 [29/Mar/2021:09:32:00 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+37.120.214.60 [29/Mar/2021:09:32:02 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+37.120.214.60 [29/Mar/2021:09:32:05 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+37.120.214.60 [29/Mar/2021:09:32:14 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+37.120.214.60 [29/Mar/2021:09:32:16 +0000] "gemini://biomimetic.me/cgi-bin/view?zork.gmi" 20 text/gemini 115
+37.120.214.60 [29/Mar/2021:09:32:27 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+37.120.214.60 [29/Mar/2021:09:32:33 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+37.120.214.60 [29/Mar/2021:09:40:57 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+37.120.214.60 [29/Mar/2021:09:42:40 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 274
+95.111.237.17 [29/Mar/2021:10:08:16 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+188.107.68.193 [29/Mar/2021:10:14:26 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+188.107.68.193 [29/Mar/2021:10:14:32 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+188.107.68.193 [29/Mar/2021:10:14:36 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+188.107.68.193 [29/Mar/2021:10:15:55 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+188.107.68.193 [29/Mar/2021:10:16:01 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+188.107.68.193 [29/Mar/2021:10:16:06 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+188.107.68.193 [29/Mar/2021:10:16:11 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+70.68.174.207 [29/Mar/2021:14:49:45 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+186.126.202.176 [29/Mar/2021:15:18:40 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+149.200.186.241 [29/Mar/2021:15:45:19 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+95.111.237.17 [29/Mar/2021:16:11:10 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+85.156.142.127 [29/Mar/2021:16:32:18 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+172.105.81.166 [29/Mar/2021:16:35:37 +0000] "gemini://biomimetic.me:1965/subleq.gmi" 20 text/gemini 10037
+172.105.81.166 [29/Mar/2021:16:46:10 +0000] "gemini://biomimetic.me:1965" 20 text/gemini 273
+91.226.241.82 [29/Mar/2021:17:01:58 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+91.226.241.82 [29/Mar/2021:17:02:09 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+91.226.241.82 [29/Mar/2021:17:02:11 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+23.155.32.68 [29/Mar/2021:17:15:08 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+23.155.32.68 [29/Mar/2021:17:17:54 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+212.51.150.186 [29/Mar/2021:18:56:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+212.51.150.186 [29/Mar/2021:18:58:47 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+95.111.237.17 [29/Mar/2021:22:10:10 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+79.235.244.153 [29/Mar/2021:23:21:31 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+79.235.244.153 [29/Mar/2021:23:22:03 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+79.235.244.153 [29/Mar/2021:23:26:58 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:23:57:02 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:23:57:04 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:23:57:07 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+177.236.52.215 [29/Mar/2021:23:57:10 +0000] "gemini://biomimetic.me/cgi-bin/view?zork.gmi" 20 text/gemini 115
+177.236.52.215 [29/Mar/2021:23:57:14 +0000] "gemini://biomimetic.me/zork.gmi" 20 text/gemini 706
+177.236.52.215 [29/Mar/2021:23:57:15 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:23:57:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:23:57:23 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+177.236.52.215 [29/Mar/2021:23:57:26 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [29/Mar/2021:23:57:27 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+177.236.52.215 [29/Mar/2021:23:57:29 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+177.236.52.215 [29/Mar/2021:23:57:31 +0000] "gemini://biomimetic.me/cgi-bin/view?search.gmi" 20 text/gemini 121
+177.236.52.215 [29/Mar/2021:23:57:33 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+68.37.28.109 [30/Mar/2021:01:53:22 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+177.236.52.215 [30/Mar/2021:03:27:14 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+177.236.52.215 [30/Mar/2021:03:27:16 +0000] "gemini://biomimetic.me/search.gmi" 20 text/gemini 3350
+177.236.52.215 [30/Mar/2021:03:27:17 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+177.236.52.215 [30/Mar/2021:03:27:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [30/Mar/2021:03:27:19 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+67.205.150.106 [30/Mar/2021:03:29:08 +0000] "gemini://biomimetic.me/favicon.txt" 51 Not Found 14
+67.205.150.106 [30/Mar/2021:03:29:08 +0000] "gemini://biomimetic.me" 20 text/gemini 273
+67.205.150.106 [30/Mar/2021:03:29:12 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+67.205.150.106 [30/Mar/2021:03:29:15 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:29:33 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:29:34 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:29:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:29:56 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:31:14 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:14 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:31:17 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:19 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:19 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:31:20 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:21 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:30 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:31 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:31:52 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:31:52 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:32:02 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:32:02 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:32:03 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:32:04 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:32:54 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:32:55 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:33:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:33:37 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:33:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:33:38 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:34:20 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:21 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:34:23 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:23 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:42 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:51 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:34:51 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:35:14 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:35:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:35:38 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:35:38 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:35:38 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:35:39 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:35:44 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+67.205.150.106 [30/Mar/2021:03:35:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:35:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:00 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:01 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:02 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:36:02 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:03 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:36:13 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:30 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:31 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:33 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:36:39 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:36:40 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:36:41 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:43 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:45 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:49 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:51 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:36:52 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:37:03 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:37:04 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:37:04 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:37:06 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:37:42 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:37:43 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:37:43 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:37:48 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:37:50 +0000] "gemini://biomimetic.me/cgi-bin/view?subleq.gmi" 20 text/gemini 200
+67.205.150.106 [30/Mar/2021:03:37:57 +0000] "gemini://biomimetic.me/cgi-bin/like?subleq.gmi" 20 text/gemini 40
+67.205.150.106 [30/Mar/2021:03:38:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:38:57 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:38:58 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:26 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:33 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:33 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:33 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:34 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:39 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:39:44 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:40:09 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:40:36 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:41:11 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:42:21 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:42:21 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:42:22 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:42:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:42:50 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:42:51 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:42:53 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:43:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:43:42 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:43:52 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:43:53 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:44:05 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:44:06 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:44:07 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:44:08 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:44:51 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:45:13 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:45:43 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:45:47 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:46:30 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:47:25 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [30/Mar/2021:03:47:41 +0000] "gemini://biomimetic.me/" 20 text/gemini 273
+67.205.150.106 [30/Mar/2021:03:47:54 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:47:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:48:35 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:48:46 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:48:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:48:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:49:32 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:49:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:50:11 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:50:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:50:52 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:53:08 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:53:09 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:53:54 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:53:54 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:53:59 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:54:39 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:17 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:55:24 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:24 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:24 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:28 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:37 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:55:38 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:55:43 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:56:15 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:56:21 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:56:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:56:56 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:57:18 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:57:22 +0000] "gemini://biomimetic.me/roller.sq" 20 application/subleq 142202
+67.205.150.106 [30/Mar/2021:03:57:52 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:57:57 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:58:34 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:58:34 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:03:59:27 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:03:59:28 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:06 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:07 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:11 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:12 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:12 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:04:00:16 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:04:00:27 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:00:29 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:04:01:02 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:01:03 +0000] "gemini://biomimetic.me/roller.png" 20 image/png 19968
+67.205.150.106 [30/Mar/2021:04:01:35 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:01:40 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:03:07 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:03:38 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:03:47 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:03:55 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:04:06 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:05:08 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+67.205.150.106 [30/Mar/2021:04:05:48 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [30/Mar/2021:04:05:53 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273
+67.205.150.106 [30/Mar/2021:04:06:17 +0000] "gemini://biomimetic.me/subleq.gmi" 20 text/gemini 10037
+177.236.52.215 [30/Mar/2021:04:06:39 +0000] "gemini://biomimetic.me/glog.gmi" 20 text/gemini 273

@@ -9,3 +9,5 @@ I got it working for zork.  Registered a domain (.club was on sale for $1.17) an
 When I was mostly finished I found out someone had actually already come up with something very similar.  And his implementation is more general purpose and somewhat more sophisticated in a way.
 
 => gemini://gemini.thegonz.net/glog/210320-gemreplPreview.gmi gemrepl preview
+
+=> cgi-bin/view?zork.gmi View replies

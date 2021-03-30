@@ -40,6 +40,7 @@ Mine is around 27 lines.
 ## Python script
 
 ```python
+#!/usr/bin/python3
 import sys
 from readchar import readchar
 
@@ -85,7 +86,7 @@ There are multiple macro assemblers and even a high-level C(ish) compiler (calle
 
 ## What can you do with SUBLEQ?
 
-Anything you can imagine, up to and including Nethack (and beyond).  I did not code anything as cool as that, but did play with it some. I used hsq, wrote some code for ANSI escape codes for colors and moving the cursor, and made this Dice Roller thing:
+Anything you can imagine, up to and including Nethack (assuming your terminal supports ANSI escape codes) (and beyond).  I did not code anything as cool as that, but did play with it some. I used hsq, wrote some code for ANSI escape codes for colors and moving the cursor, and made this Dice Roller thing:
 
 => roller.png Dice Roller screenshot
 
@@ -305,3 +306,6 @@ int main() {
    fgColor(WHITE);
 }
 ```
+
+
+=> cgi-bin/view?subleq.gmi  View replies
